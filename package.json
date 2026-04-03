@@ -1,0 +1,14 @@
+{
+  "name": "cipher-p2p",
+  "version": "1.0.0",
+  "description": "Cipher P2P Messenger — signaling + LAN servers",
+  "scripts": {
+    "signal": "node signal-server.js",
+    "lan":    "node lan-server.js",
+    "start":  "node signal-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": { "node": ">=18" }
+}
