@@ -1,0 +1,26 @@
+{
+  "name": "Cipher — Private Messenger",
+  "short_name": "Cipher",
+  "description": "Zero-knowledge end-to-end encrypted messenger",
+  "start_url": "./private-messenger.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#00e5c3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%230a0a0f'/><text x='96' y='130' font-size='100' text-anchor='middle'>🔐</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%230a0a0f'/><text x='256' y='340' font-size='260' text-anchor='middle'>🔐</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["communication", "productivity"],
+  "screenshots": []
+}
